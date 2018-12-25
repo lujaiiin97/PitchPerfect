@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="MUz-wI-e4T">
+            <objects>
+                <viewController id="8eo-3V-0Ud" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EgT-dM-ZaW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QMl-cB-wY8">
+                                <rect key="frame" x="25" y="355" width="325" height="102"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6K-s2-sOb">
+                                        <rect key="frame" x="25" y="5" width="102" height="102"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="102" id="SoV-ab-i5W"/>
+                                            <constraint firstAttribute="height" constant="102" id="qxW-hO-DnV"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="Slow"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jhl-hu-4Fb">
+                                        <rect key="frame" x="198" y="0.0" width="102" height="102"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="102" id="Zmp-mn-0vx"/>
+                                            <constraint firstAttribute="height" constant="102" id="vR3-ds-BGj"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="Fast"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Jhl-hu-4Fb" firstAttribute="top" secondItem="QMl-cB-wY8" secondAttribute="top" id="4tn-3k-y3Z"/>
+                                    <constraint firstItem="i6K-s2-sOb" firstAttribute="leading" secondItem="QMl-cB-wY8" secondAttribute="leading" constant="25" id="Tsj-RP-S80"/>
+                                    <constraint firstAttribute="height" constant="102" id="alZ-bo-2JB"/>
+                                    <constraint firstItem="i6K-s2-sOb" firstAttribute="top" secondItem="QMl-cB-wY8" secondAttribute="top" constant="5" id="fp8-1f-yuQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jhl-hu-4Fb" secondAttribute="trailing" constant="25" id="fqQ-Ma-S9X"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qhz-pf-EiK">
+                                <rect key="frame" x="25" y="507" width="325" height="102"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVY-yI-YXV">
+                                        <rect key="frame" x="25" y="0.0" width="102" height="102"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="102" id="ksn-dW-5yg"/>
+                                            <constraint firstAttribute="height" constant="102" id="pNN-Nv-iId"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="Slow"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWS-YO-tDo">
+                                        <rect key="frame" x="198" y="0.0" width="102" height="102"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="102" id="EZ8-qJ-Szd"/>
+                                            <constraint firstAttribute="height" constant="102" id="WyO-Gx-ZZO"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="Fast"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="HWS-YO-tDo" secondAttribute="trailing" constant="25" id="IYQ-WD-Uwt"/>
+                                    <constraint firstItem="HWS-YO-tDo" firstAttribute="top" secondItem="qhz-pf-EiK" secondAttribute="top" id="P05-tb-OhF"/>
+                                    <constraint firstItem="oVY-yI-YXV" firstAttribute="leading" secondItem="qhz-pf-EiK" secondAttribute="leading" constant="25" id="enO-Lr-nHe"/>
+                                    <constraint firstItem="oVY-yI-YXV" firstAttribute="top" secondItem="qhz-pf-EiK" secondAttribute="top" id="k2G-kh-4eQ"/>
+                                    <constraint firstAttribute="height" constant="102" id="rIA-d5-jWu"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8i1-yc-1yK">
+                                <rect key="frame" x="25" y="203" width="325" height="102"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nuv-qR-PZs">
+                                        <rect key="frame" x="25" y="5" width="102" height="102"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="102" id="Ivz-47-dz9"/>
+                                            <constraint firstAttribute="width" constant="102" id="LZl-68-kyD"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="Slow"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNu-El-hlt">
+                                        <rect key="frame" x="198" y="0.0" width="102" height="102"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="102" id="JhM-85-wcn"/>
+                                            <constraint firstAttribute="width" constant="102" id="zc1-gI-KmD"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="Fast"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="wNu-El-hlt" firstAttribute="top" secondItem="8i1-yc-1yK" secondAttribute="top" id="H7R-KO-lO4"/>
+                                    <constraint firstItem="Nuv-qR-PZs" firstAttribute="top" secondItem="8i1-yc-1yK" secondAttribute="top" constant="5" id="QAe-Bk-VOF"/>
+                                    <constraint firstItem="Nuv-qR-PZs" firstAttribute="leading" secondItem="8i1-yc-1yK" secondAttribute="leading" constant="25" id="cuD-wS-Swj"/>
+                                    <constraint firstAttribute="trailing" secondItem="wNu-El-hlt" secondAttribute="trailing" constant="25" id="iw1-iS-5fR"/>
+                                    <constraint firstAttribute="height" constant="102" id="kXC-C0-fus"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qhz-pf-EiK" firstAttribute="top" secondItem="QMl-cB-wY8" secondAttribute="bottom" constant="50" id="8Gz-9R-dTS"/>
+                            <constraint firstItem="qhz-pf-EiK" firstAttribute="leading" secondItem="Rjy-W6-bXM" secondAttribute="leading" constant="25" id="HeS-8G-K88"/>
+                            <constraint firstItem="Rjy-W6-bXM" firstAttribute="trailing" secondItem="qhz-pf-EiK" secondAttribute="trailing" constant="25" id="P7L-SP-nWf"/>
+                            <constraint firstItem="Rjy-W6-bXM" firstAttribute="trailing" secondItem="QMl-cB-wY8" secondAttribute="trailing" constant="25" id="P82-s7-cSn"/>
+                            <constraint firstItem="8i1-yc-1yK" firstAttribute="leading" secondItem="Rjy-W6-bXM" secondAttribute="leading" constant="25" id="TbL-N3-7Kk"/>
+                            <constraint firstItem="QMl-cB-wY8" firstAttribute="top" secondItem="8i1-yc-1yK" secondAttribute="bottom" constant="50" id="ZVO-hc-giS"/>
+                            <constraint firstItem="QMl-cB-wY8" firstAttribute="leading" secondItem="Rjy-W6-bXM" secondAttribute="leading" constant="25" id="cP7-eh-yd6"/>
+                            <constraint firstItem="Rjy-W6-bXM" firstAttribute="trailing" secondItem="8i1-yc-1yK" secondAttribute="trailing" constant="25" id="xpg-Nl-h48"/>
+                            <constraint firstItem="QMl-cB-wY8" firstAttribute="centerY" secondItem="EgT-dM-ZaW" secondAttribute="centerY" id="ypU-JN-ykk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Rjy-W6-bXM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="brE-T7-8nV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="261.60000000000002" y="284.70764617691157"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Fast" width="90" height="90"/>
+        <image name="Slow" width="90" height="90"/>
+    </resources>
+</document>
